@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UTecnologias S.O - Educación del Futuro</title>
+        <link rel="stylesheet" href="../iconos inicio/admisiones.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    </head>
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <img src="../imagenes/logo oficial .jpg" alt="Logo UTecnologias S.O" class="logo-img">
+            <h1>UTecnologias S.O</h1>
+            <div id="clock">
+                <span></span> : <span></span> : <span></span>
+              </div>
+        </div>
+        <div class="nav-links">
+
+            <a href="../index.html" class="nav-item active"><i class="fas fa-home"></i> Inicio</a>
+            <a href="programa.html" class="nav-item"><i class="fas fa-graduation-cap"></i> Programas</a>
+            <a href="admisiones.html" class="nav-item"><i class="fas fa-user-plus"></i> Admisiones</a>
+            <a href="estudiantes.html" class="nav-item"><i class="fas fa-users"></i> Estudiantes</a>
+
+        </div>
+
+    </nav>
+    <script src="../Javascript/reloj.js"></script>
+</header>
+<br>
+<br>
+<br>
+<br>
+
+
+<main>
+    <section class="calendario-academico">
+        <h1>Calendario académico para estudiantes de pregrado y posgrado</h1>
+        <div class="calendario-pregrado-posgrado">
+            <div class="calendario-pregrado">
+                <h2>2025</h2>
+                <p>Cronograma de actividades académicas de pregrado</p>
+                <a href="../PDFS/UTecnologias S PREGRADO.pdf" class="boton">Descargar</a>
+            </div>
+            <div class="calendario-posgrado">
+                <h2>2025</h2>
+                <p>Cronograma de actividades académicas de posgrado</p>
+                <a href="../PDFS/UTecnologias S POSGRADO.pdf" class="boton">Descargar</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<section class="contacto">
+    <h1>Contacto</h1>
+    <h2>También puedes diligenciar el siguiente formulario con tu consulta y te responderemos lo antes posible:</h2>
+    <form>
+        <div class="form-group">
+            <label for="nombres">Nombres *</label>
+            <input type="text" id="nombres" name="nombres" required>
+        </div>
+        <div class="form-group">
+            <label for="apellidos">Apellidos *</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo electrónico *</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label>Soy un:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="aspirante-pregrado" value="aspirante-pregrado">
+                <label class="form-check-label" for="aspirante-pregrado">Aspirante a pregrado</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="aspirante-posgrado" value="aspirante-posgrado">
+                <label class="form-check-label" for="aspirante-posgrado">Aspirante a posgrado</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="estudiante-pregrado" value="estudiante-pregrado">
+                <label class="form-check-label" for="estudiante-pregrado">Estudiante de pregrado</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="estudiante-posgrado" value="estudiante-posgrado">
+                <label class="form-check-label" for="estudiante-posgrado">Estudiante de posgrado</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="consulta">Su consulta *</label>
+            <textarea id="consulta" name="consulta" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="consentimiento" required>
+                <label class="form-check-label" for="consentimiento">
+                    Consiento y autorizo el uso de mis datos personales *
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-info">
+            <div class="footer-logo">
+                <img src="../imagenes/logo oficial .jpg" alt="Logo Santiago"><h3>UTecnologias S.O</h3>
+            </div>
+            <div class="footer-locations">
+                <div class="location">
+                    <h3><i class="fas fa-map-marker-alt"></i> Bogotá</h3>
+                    <p class="subtitle">Sede principal</p>
+                    <p>Avenida (Calle) 32 No. 17 – 30</p>
+                    <p><i class="fas fa-phone"></i> 601 338 06 66</p>
+                </div>
+                <div class="location">
+                    <h3><i class="fas fa-map-marker-alt"></i> Medellin</h3>
+                    <p class="subtitle">Sede Medellin</p>
+                    <p>Carrera 35 No. 20A-02</p>
+                    <p><i class="fas fa-phone"></i> 3124843857</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-social">
+            <h3>Síguenos en redes</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <p>© 2024 UTecnologias S.O. Todos los derechos reservados.</p>
+            <p>Fundación Universitaria UTecnologias S.O</p>
+            <p>VIGILADA MINEDUCACIÓN</p>
+            <a href="mailto:notificacionesjudiciales@UTecnologias S.O.edu.co">notificacionesjudiciales@UTecnologiasS.O.edu.co</a>
+            <script src="Javascript/reloj.js"></script>
+        </div>
+    </div>
+</footer>
