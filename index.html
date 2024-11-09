@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTecnologias S.O - Educación del Futuro</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="imagenes/logo oficial .jpg" alt="Logo UTecnologias S.O" class="logo-img">
+                <h1>UTecnologias S.O</h1>
+                <div id="clock">
+                    <span></span> : <span></span> : <span></span>
+                  </div>
+            </div>
+            <div class="nav-links">
+
+                <a href="index.html" class="nav-item active"><i class="fas fa-home"></i> Inicio</a>
+                <a href="iconos inicio/programa.html" class="nav-item"><i class="fas fa-graduation-cap"></i> Programas</a>
+                <a href="iconos inicio/admisiones.html" class="nav-item"><i class="fas fa-user-plus"></i> Admisiones</a>
+                <a href="iconos inicio/estudiantes.html" class="nav-item"><i class="fas fa-users"></i> Estudiantes</a>
+
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Construye tu futuro </h1>
+                <p class="hero-subtitle">Únete a más de 8.309 estudiantes que están transformando su educación</p>
+                <a href="iconos inicio/programa.html" class="cta-button">Descubre nuestros programas</a>
+            </div>
+        </section>
+
+        <section class="students-stats">
+            <div class="stats-content">
+                <div class="stats-text">
+                    <h2 class="section-title">Nuestra Comunidad Crece</h2>
+                    <div class="stats-numbers">
+                        <div class="stat-item">
+                            <span class="stat-number">8.309</span>
+                            <span class="stat-label">Estudiantes</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Campus</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Programas</span>
+                        </div>
+                    </div>
+                    <p class="stats-description">Formamos profesionales preparados para los retos del mundo digital, con presencia en Bogotá y Villavicencio, y alcance nacional a través de nuestra plataforma virtual.</p>
+                </div>
+                <div class="student-image-container">
+                    <img src="imagenes/campues.jpg" alt="Estudiantes en campus" class="circular-image" />
+                </div>
+            </div>
+        </section>
+
+        <section class="programs-section">
+            <h2 class="section-title centered">Nuestros Programas Destacados</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Ingeniería De Software</h3>
+                    <p>Forma parte de la revolución tecnológica</p>
+                    <a href="programas destacados/software.html" class="program-link">Más información</a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Comunicación Moderna</h3>
+                    <p>Domina los nuevos medios digitales</p>
+                    <a href="programas destacados/comunicacion.html" class="program-link">Más información</a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Diseño Interactivo</h3>
+                    <p>Crea experiencias digitales innovadoras</p>
+                    <a href="programas destacados/interactivo.html" class="program-link">Más información</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="form-container">
+                <h2 class="section-title">¿Listo para dar el siguiente paso?</h2>
+                <form class="contact-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" placeholder="Tus apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" placeholder="Tu teléfono" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="programa">Programa de interés</label>
+                            <select id="programa" required>
+                                <option value="">Selecciona un programa</option>
+                                <option value="1">Ingeniería De Software</option>
+                                <option value="2">Comunicación Moderna</option>
+                                <option value="3">Diseño Interactivo</option>
+
+
+                                <option value="4">Enfermeria</option>
+                                <option value="5">Inteligencia artificial</option>
+                                <option value="6">Seguridad informativa y ciberseguridad</option>
+                                <option value="7">Big datat y ciencia de datos</option>
+                                <option value="8">Robótica y automatización</option>
+                                <option value="9">Ingeniería en blockchain y criptomonedad</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Solicitar información <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="community-section">
+            <div class="community-content">
+                <h2 class="section-title">Vida Universitaria</h2>
+                <p class="section-description">Descubre todas las experiencias que te esperan en nuestra comunidad</p>
+                
+                <div class="community-features">
+                    <div class="feature-item">
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Noticias UTecnologias S.O</h3>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fab fa-spotify"></i>
+                        <h3>Spotify UTecnologias S.O</h3>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart"></i>
+                        <h3>Bienestar</h3>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Internacionalización</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="faq-content">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <i class="fas fa-calendar"></i>
+                        <h3>¿Cuándo son las inscripciones?</h3>
+                        <a href="iconos inicio/QuejaReclamoSugerencia.html" class="faq-link">Ver más</a>
+                    </div>
+                    <div class="faq-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>¿Cómo accedo a la beca?</h3>
+                        <a href="iconos inicio/QuejaReclamoSugerencia.html" class="faq-link">Ver más</a>
+                    </div>
+                    <div class="faq-item">
+                        <i class="fas fa-money-bill"></i>
+                        <h3>Opciones de financiación</h3>
+                        <a href="iconos inicio/QuejaReclamoSugerencia.html" class="faq-link">Ver más</a>
+                    </div>
+                    <div class="faq-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Admisión</h3>
+                        <a href="iconos inicio/QuejaReclamoSugerencia.html" class="faq-link">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="imagenes/logo oficial .jpg" alt="Logo Santiago"><h3>UTecnologias S.O</h3>
+                </div>
+                <div class="footer-locations">
+                    <div class="location">
+                        <h3><i class="fas fa-map-marker-alt"></i> Bogotá</h3>
+                        <p class="subtitle">Sede principal</p>
+                        <p>Avenida (Calle) 32 No. 17 – 30</p>
+                        <p><i class="fas fa-phone"></i> 601 338 06 66</p>
+                    </div>
+                    <div class="location">
+                        <h3><i class="fas fa-map-marker-alt"></i> Medellin</h3>
+                        <p class="subtitle">Sede Medellin</p>
+                        <p>Carrera 35 No. 20A-02</p>
+                        <p><i class="fas fa-phone"></i> 3124843857</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <h3>Síguenos en redes</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/orozcojimmy987?mibextid=LQQJ4d" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/santiago_biker.0/profilecard/?igsh=NGVpbDF0NHNyMWk2" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jimmy-santiago-orozco-4004a2289/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/3124843857" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@santiago.r15_v3?_t=8rEp1HObdhw&_r=1" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-legal">
+                <p>© 2024 UTecnologias S.O. Todos los derechos reservados.</p>
+                <p>Fundación Universitaria UTecnologias S.O</p>
+                <p>VIGILADA MINEDUCACIÓN</p>
+                <a href="mailto:notificacionesjudiciales@UTecnologias S.O.edu.co">notificacionesjudiciales@UTecnologiasS.O.edu.co</a>
+                <script src="Javascript/reloj.js"></script>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
